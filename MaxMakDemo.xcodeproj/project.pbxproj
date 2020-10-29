@@ -8,13 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		42AB3FD7254AE1B10065CC4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB3FD6254AE1B10065CC4E /* AppDelegate.swift */; };
-		42AB3FD9254AE1B10065CC4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB3FD8254AE1B10065CC4E /* SceneDelegate.swift */; };
 		42AB3FDB254AE1B10065CC4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB3FDA254AE1B10065CC4E /* ViewController.swift */; };
 		42AB3FDE254AE1B10065CC4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42AB3FDC254AE1B10065CC4E /* Main.storyboard */; };
 		42AB3FE0254AE1B40065CC4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42AB3FDF254AE1B40065CC4E /* Assets.xcassets */; };
 		42AB3FE3254AE1B40065CC4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42AB3FE1254AE1B40065CC4E /* LaunchScreen.storyboard */; };
 		42AB3FEE254AE1B40065CC4E /* MaxMakDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB3FED254AE1B40065CC4E /* MaxMakDemoTests.swift */; };
 		42AB3FF9254AE1B40065CC4E /* MaxMakDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB3FF8254AE1B40065CC4E /* MaxMakDemoUITests.swift */; };
+		42AB4052254AE33F0065CC4E /* ConstUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB403A254AE33F0065CC4E /* ConstUtil.swift */; };
+		42AB4053254AE33F0065CC4E /* HttpRequestUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB403B254AE33F0065CC4E /* HttpRequestUtil.swift */; };
+		42AB4054254AE33F0065CC4E /* ToastUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB403C254AE33F0065CC4E /* ToastUtil.swift */; };
+		42AB4055254AE33F0065CC4E /* HistoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB4040254AE33F0065CC4E /* HistoryPresenter.swift */; };
+		42AB4056254AE33F0065CC4E /* HistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB4042254AE33F0065CC4E /* HistoryController.swift */; };
+		42AB4057254AE33F0065CC4E /* HistoryHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB4043254AE33F0065CC4E /* HistoryHeadView.swift */; };
+		42AB4058254AE33F0065CC4E /* DBModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42AB4045254AE33F0065CC4E /* DBModel.xcdatamodeld */; };
+		42AB4059254AE33F0065CC4E /* Msg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB4047254AE33F0065CC4E /* Msg.swift */; };
+		42AB405A254AE33F0065CC4E /* DBMsgHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB4048254AE33F0065CC4E /* DBMsgHandle.swift */; };
+		42AB405B254AE33F0065CC4E /* DBBaseHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB4049254AE33F0065CC4E /* DBBaseHandle.swift */; };
+		42AB405C254AE33F0065CC4E /* DisplayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB404C254AE33F0065CC4E /* DisplayPresenter.swift */; };
+		42AB405D254AE33F0065CC4E /* DisplayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB404E254AE33F0065CC4E /* DisplayModel.swift */; };
+		42AB405E254AE33F0065CC4E /* DisplayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB4050254AE33F0065CC4E /* DisplayController.swift */; };
+		42AB405F254AE33F0065CC4E /* DisplayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB4051254AE33F0065CC4E /* DisplayCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +50,6 @@
 /* Begin PBXFileReference section */
 		42AB3FD3254AE1B10065CC4E /* MaxMakDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaxMakDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42AB3FD6254AE1B10065CC4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		42AB3FD8254AE1B10065CC4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		42AB3FDA254AE1B10065CC4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		42AB3FDD254AE1B10065CC4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42AB3FDF254AE1B40065CC4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +61,20 @@
 		42AB3FF4254AE1B40065CC4E /* MaxMakDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaxMakDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42AB3FF8254AE1B40065CC4E /* MaxMakDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxMakDemoUITests.swift; sourceTree = "<group>"; };
 		42AB3FFA254AE1B40065CC4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42AB403A254AE33F0065CC4E /* ConstUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstUtil.swift; sourceTree = "<group>"; };
+		42AB403B254AE33F0065CC4E /* HttpRequestUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequestUtil.swift; sourceTree = "<group>"; };
+		42AB403C254AE33F0065CC4E /* ToastUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastUtil.swift; sourceTree = "<group>"; };
+		42AB4040254AE33F0065CC4E /* HistoryPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryPresenter.swift; sourceTree = "<group>"; };
+		42AB4042254AE33F0065CC4E /* HistoryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryController.swift; sourceTree = "<group>"; };
+		42AB4043254AE33F0065CC4E /* HistoryHeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryHeadView.swift; sourceTree = "<group>"; };
+		42AB4046254AE33F0065CC4E /* DBModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DBModel.xcdatamodel; sourceTree = "<group>"; };
+		42AB4047254AE33F0065CC4E /* Msg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Msg.swift; sourceTree = "<group>"; };
+		42AB4048254AE33F0065CC4E /* DBMsgHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBMsgHandle.swift; sourceTree = "<group>"; };
+		42AB4049254AE33F0065CC4E /* DBBaseHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBBaseHandle.swift; sourceTree = "<group>"; };
+		42AB404C254AE33F0065CC4E /* DisplayPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayPresenter.swift; sourceTree = "<group>"; };
+		42AB404E254AE33F0065CC4E /* DisplayModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayModel.swift; sourceTree = "<group>"; };
+		42AB4050254AE33F0065CC4E /* DisplayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayController.swift; sourceTree = "<group>"; };
+		42AB4051254AE33F0065CC4E /* DisplayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +125,9 @@
 		42AB3FD5254AE1B10065CC4E /* MaxMakDemo */ = {
 			isa = PBXGroup;
 			children = (
+				42AB403D254AE33F0065CC4E /* Module */,
+				42AB4039254AE33F0065CC4E /* Utils */,
 				42AB3FD6254AE1B10065CC4E /* AppDelegate.swift */,
-				42AB3FD8254AE1B10065CC4E /* SceneDelegate.swift */,
 				42AB3FDA254AE1B10065CC4E /* ViewController.swift */,
 				42AB3FDC254AE1B10065CC4E /* Main.storyboard */,
 				42AB3FDF254AE1B40065CC4E /* Assets.xcassets */,
@@ -126,6 +153,98 @@
 				42AB3FFA254AE1B40065CC4E /* Info.plist */,
 			);
 			path = MaxMakDemoUITests;
+			sourceTree = "<group>";
+		};
+		42AB4039254AE33F0065CC4E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				42AB403A254AE33F0065CC4E /* ConstUtil.swift */,
+				42AB403B254AE33F0065CC4E /* HttpRequestUtil.swift */,
+				42AB403C254AE33F0065CC4E /* ToastUtil.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		42AB403D254AE33F0065CC4E /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				42AB403E254AE33F0065CC4E /* History */,
+				42AB4044254AE33F0065CC4E /* DB */,
+				42AB404A254AE33F0065CC4E /* Display */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		42AB403E254AE33F0065CC4E /* History */ = {
+			isa = PBXGroup;
+			children = (
+				42AB403F254AE33F0065CC4E /* Presenter */,
+				42AB4041254AE33F0065CC4E /* View */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		42AB403F254AE33F0065CC4E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				42AB4040254AE33F0065CC4E /* HistoryPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		42AB4041254AE33F0065CC4E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				42AB4042254AE33F0065CC4E /* HistoryController.swift */,
+				42AB4043254AE33F0065CC4E /* HistoryHeadView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		42AB4044254AE33F0065CC4E /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				42AB4045254AE33F0065CC4E /* DBModel.xcdatamodeld */,
+				42AB4047254AE33F0065CC4E /* Msg.swift */,
+				42AB4048254AE33F0065CC4E /* DBMsgHandle.swift */,
+				42AB4049254AE33F0065CC4E /* DBBaseHandle.swift */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		42AB404A254AE33F0065CC4E /* Display */ = {
+			isa = PBXGroup;
+			children = (
+				42AB404B254AE33F0065CC4E /* Presenter */,
+				42AB404D254AE33F0065CC4E /* Model */,
+				42AB404F254AE33F0065CC4E /* View */,
+			);
+			path = Display;
+			sourceTree = "<group>";
+		};
+		42AB404B254AE33F0065CC4E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				42AB404C254AE33F0065CC4E /* DisplayPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		42AB404D254AE33F0065CC4E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				42AB404E254AE33F0065CC4E /* DisplayModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		42AB404F254AE33F0065CC4E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				42AB4050254AE33F0065CC4E /* DisplayController.swift */,
+				42AB4051254AE33F0065CC4E /* DisplayCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +377,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42AB4057254AE33F0065CC4E /* HistoryHeadView.swift in Sources */,
+				42AB405C254AE33F0065CC4E /* DisplayPresenter.swift in Sources */,
+				42AB405A254AE33F0065CC4E /* DBMsgHandle.swift in Sources */,
+				42AB4058254AE33F0065CC4E /* DBModel.xcdatamodeld in Sources */,
+				42AB405D254AE33F0065CC4E /* DisplayModel.swift in Sources */,
+				42AB4056254AE33F0065CC4E /* HistoryController.swift in Sources */,
+				42AB4053254AE33F0065CC4E /* HttpRequestUtil.swift in Sources */,
 				42AB3FDB254AE1B10065CC4E /* ViewController.swift in Sources */,
+				42AB405F254AE33F0065CC4E /* DisplayCell.swift in Sources */,
 				42AB3FD7254AE1B10065CC4E /* AppDelegate.swift in Sources */,
-				42AB3FD9254AE1B10065CC4E /* SceneDelegate.swift in Sources */,
+				42AB4054254AE33F0065CC4E /* ToastUtil.swift in Sources */,
+				42AB405B254AE33F0065CC4E /* DBBaseHandle.swift in Sources */,
+				42AB405E254AE33F0065CC4E /* DisplayController.swift in Sources */,
+				42AB4059254AE33F0065CC4E /* Msg.swift in Sources */,
+				42AB4055254AE33F0065CC4E /* HistoryPresenter.swift in Sources */,
+				42AB4052254AE33F0065CC4E /* ConstUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,6 +725,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		42AB4045254AE33F0065CC4E /* DBModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				42AB4046254AE33F0065CC4E /* DBModel.xcdatamodel */,
+			);
+			currentVersion = 42AB4046254AE33F0065CC4E /* DBModel.xcdatamodel */;
+			path = DBModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 42AB3FCB254AE1B10065CC4E /* Project object */;
 }
