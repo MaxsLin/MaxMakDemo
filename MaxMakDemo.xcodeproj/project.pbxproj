@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42AB3FD7254AE1B10065CC4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB3FD6254AE1B10065CC4E /* AppDelegate.swift */; };
+		42AB3FD9254AE1B10065CC4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB3FD8254AE1B10065CC4E /* SceneDelegate.swift */; };
+		42AB3FDB254AE1B10065CC4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB3FDA254AE1B10065CC4E /* ViewController.swift */; };
+		42AB3FDE254AE1B10065CC4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42AB3FDC254AE1B10065CC4E /* Main.storyboard */; };
+		42AB3FE0254AE1B40065CC4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42AB3FDF254AE1B40065CC4E /* Assets.xcassets */; };
+		42AB3FE3254AE1B40065CC4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42AB3FE1254AE1B40065CC4E /* LaunchScreen.storyboard */; };
+		42AB3FEE254AE1B40065CC4E /* MaxMakDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB3FED254AE1B40065CC4E /* MaxMakDemoTests.swift */; };
+		42AB3FF9254AE1B40065CC4E /* MaxMakDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB3FF8254AE1B40065CC4E /* MaxMakDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42AB3FEA254AE1B40065CC4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42AB3FCB254AE1B10065CC4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42AB3FD2254AE1B10065CC4E;
+			remoteInfo = MaxMakDemo;
+		};
+		42AB3FF5254AE1B40065CC4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42AB3FCB254AE1B10065CC4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42AB3FD2254AE1B10065CC4E;
+			remoteInfo = MaxMakDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42AB3FD3254AE1B10065CC4E /* MaxMakDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaxMakDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42AB3FD6254AE1B10065CC4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42AB3FD8254AE1B10065CC4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		42AB3FDA254AE1B10065CC4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42AB3FDD254AE1B10065CC4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42AB3FDF254AE1B40065CC4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42AB3FE2254AE1B40065CC4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42AB3FE4254AE1B40065CC4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42AB3FE9254AE1B40065CC4E /* MaxMakDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaxMakDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42AB3FED254AE1B40065CC4E /* MaxMakDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxMakDemoTests.swift; sourceTree = "<group>"; };
+		42AB3FEF254AE1B40065CC4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42AB3FF4254AE1B40065CC4E /* MaxMakDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaxMakDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42AB3FF8254AE1B40065CC4E /* MaxMakDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxMakDemoUITests.swift; sourceTree = "<group>"; };
+		42AB3FFA254AE1B40065CC4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42AB3FD0254AE1B10065CC4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42AB3FE6254AE1B40065CC4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42AB3FF1254AE1B40065CC4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42AB3FCA254AE1B10065CC4E = {
+			isa = PBXGroup;
+			children = (
+				42AB3FD5254AE1B10065CC4E /* MaxMakDemo */,
+				42AB3FEC254AE1B40065CC4E /* MaxMakDemoTests */,
+				42AB3FF7254AE1B40065CC4E /* MaxMakDemoUITests */,
+				42AB3FD4254AE1B10065CC4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42AB3FD4254AE1B10065CC4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42AB3FD3254AE1B10065CC4E /* MaxMakDemo.app */,
+				42AB3FE9254AE1B40065CC4E /* MaxMakDemoTests.xctest */,
+				42AB3FF4254AE1B40065CC4E /* MaxMakDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42AB3FD5254AE1B10065CC4E /* MaxMakDemo */ = {
+			isa = PBXGroup;
+			children = (
+				42AB3FD6254AE1B10065CC4E /* AppDelegate.swift */,
+				42AB3FD8254AE1B10065CC4E /* SceneDelegate.swift */,
+				42AB3FDA254AE1B10065CC4E /* ViewController.swift */,
+				42AB3FDC254AE1B10065CC4E /* Main.storyboard */,
+				42AB3FDF254AE1B40065CC4E /* Assets.xcassets */,
+				42AB3FE1254AE1B40065CC4E /* LaunchScreen.storyboard */,
+				42AB3FE4254AE1B40065CC4E /* Info.plist */,
+			);
+			path = MaxMakDemo;
+			sourceTree = "<group>";
+		};
+		42AB3FEC254AE1B40065CC4E /* MaxMakDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				42AB3FED254AE1B40065CC4E /* MaxMakDemoTests.swift */,
+				42AB3FEF254AE1B40065CC4E /* Info.plist */,
+			);
+			path = MaxMakDemoTests;
+			sourceTree = "<group>";
+		};
+		42AB3FF7254AE1B40065CC4E /* MaxMakDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42AB3FF8254AE1B40065CC4E /* MaxMakDemoUITests.swift */,
+				42AB3FFA254AE1B40065CC4E /* Info.plist */,
+			);
+			path = MaxMakDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AB3FD2254AE1B10065CC4E /* MaxMakDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42AB3FFD254AE1B40065CC4E /* Build configuration list for PBXNativeTarget "MaxMakDemo" */;
+			buildPhases = (
+				42AB3FCF254AE1B10065CC4E /* Sources */,
+				42AB3FD0254AE1B10065CC4E /* Frameworks */,
+				42AB3FD1254AE1B10065CC4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaxMakDemo;
+			productName = MaxMakDemo;
+			productReference = 42AB3FD3254AE1B10065CC4E /* MaxMakDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42AB3FE8254AE1B40065CC4E /* MaxMakDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42AB4000254AE1B40065CC4E /* Build configuration list for PBXNativeTarget "MaxMakDemoTests" */;
+			buildPhases = (
+				42AB3FE5254AE1B40065CC4E /* Sources */,
+				42AB3FE6254AE1B40065CC4E /* Frameworks */,
+				42AB3FE7254AE1B40065CC4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42AB3FEB254AE1B40065CC4E /* PBXTargetDependency */,
+			);
+			name = MaxMakDemoTests;
+			productName = MaxMakDemoTests;
+			productReference = 42AB3FE9254AE1B40065CC4E /* MaxMakDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42AB3FF3254AE1B40065CC4E /* MaxMakDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42AB4003254AE1B40065CC4E /* Build configuration list for PBXNativeTarget "MaxMakDemoUITests" */;
+			buildPhases = (
+				42AB3FF0254AE1B40065CC4E /* Sources */,
+				42AB3FF1254AE1B40065CC4E /* Frameworks */,
+				42AB3FF2254AE1B40065CC4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42AB3FF6254AE1B40065CC4E /* PBXTargetDependency */,
+			);
+			name = MaxMakDemoUITests;
+			productName = MaxMakDemoUITests;
+			productReference = 42AB3FF4254AE1B40065CC4E /* MaxMakDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42AB3FCB254AE1B10065CC4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					42AB3FD2254AE1B10065CC4E = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					42AB3FE8254AE1B40065CC4E = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 42AB3FD2254AE1B10065CC4E;
+					};
+					42AB3FF3254AE1B40065CC4E = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 42AB3FD2254AE1B10065CC4E;
+					};
+				};
+			};
+			buildConfigurationList = 42AB3FCE254AE1B10065CC4E /* Build configuration list for PBXProject "MaxMakDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42AB3FCA254AE1B10065CC4E;
+			productRefGroup = 42AB3FD4254AE1B10065CC4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AB3FD2254AE1B10065CC4E /* MaxMakDemo */,
+				42AB3FE8254AE1B40065CC4E /* MaxMakDemoTests */,
+				42AB3FF3254AE1B40065CC4E /* MaxMakDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42AB3FD1254AE1B10065CC4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AB3FE3254AE1B40065CC4E /* LaunchScreen.storyboard in Resources */,
+				42AB3FE0254AE1B40065CC4E /* Assets.xcassets in Resources */,
+				42AB3FDE254AE1B10065CC4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42AB3FE7254AE1B40065CC4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42AB3FF2254AE1B40065CC4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42AB3FCF254AE1B10065CC4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AB3FDB254AE1B10065CC4E /* ViewController.swift in Sources */,
+				42AB3FD7254AE1B10065CC4E /* AppDelegate.swift in Sources */,
+				42AB3FD9254AE1B10065CC4E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42AB3FE5254AE1B40065CC4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AB3FEE254AE1B40065CC4E /* MaxMakDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42AB3FF0254AE1B40065CC4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AB3FF9254AE1B40065CC4E /* MaxMakDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42AB3FEB254AE1B40065CC4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42AB3FD2254AE1B10065CC4E /* MaxMakDemo */;
+			targetProxy = 42AB3FEA254AE1B40065CC4E /* PBXContainerItemProxy */;
+		};
+		42AB3FF6254AE1B40065CC4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42AB3FD2254AE1B10065CC4E /* MaxMakDemo */;
+			targetProxy = 42AB3FF5254AE1B40065CC4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42AB3FDC254AE1B10065CC4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42AB3FDD254AE1B10065CC4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42AB3FE1254AE1B40065CC4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42AB3FE2254AE1B40065CC4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42AB3FFB254AE1B40065CC4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42AB3FFC254AE1B40065CC4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42AB3FFE254AE1B40065CC4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = REPF9RB9YJ;
+				INFOPLIST_FILE = MaxMakDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxsmak.maxmakDemo.MaxMakDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42AB3FFF254AE1B40065CC4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = REPF9RB9YJ;
+				INFOPLIST_FILE = MaxMakDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxsmak.maxmakDemo.MaxMakDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42AB4001254AE1B40065CC4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = REPF9RB9YJ;
+				INFOPLIST_FILE = MaxMakDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxsmak.maxmakDemo.MaxMakDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaxMakDemo.app/MaxMakDemo";
+			};
+			name = Debug;
+		};
+		42AB4002254AE1B40065CC4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = REPF9RB9YJ;
+				INFOPLIST_FILE = MaxMakDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxsmak.maxmakDemo.MaxMakDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaxMakDemo.app/MaxMakDemo";
+			};
+			name = Release;
+		};
+		42AB4004254AE1B40065CC4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = REPF9RB9YJ;
+				INFOPLIST_FILE = MaxMakDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxsmak.maxmakDemo.MaxMakDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaxMakDemo;
+			};
+			name = Debug;
+		};
+		42AB4005254AE1B40065CC4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = REPF9RB9YJ;
+				INFOPLIST_FILE = MaxMakDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxsmak.maxmakDemo.MaxMakDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaxMakDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42AB3FCE254AE1B10065CC4E /* Build configuration list for PBXProject "MaxMakDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42AB3FFB254AE1B40065CC4E /* Debug */,
+				42AB3FFC254AE1B40065CC4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42AB3FFD254AE1B40065CC4E /* Build configuration list for PBXNativeTarget "MaxMakDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42AB3FFE254AE1B40065CC4E /* Debug */,
+				42AB3FFF254AE1B40065CC4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42AB4000254AE1B40065CC4E /* Build configuration list for PBXNativeTarget "MaxMakDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42AB4001254AE1B40065CC4E /* Debug */,
+				42AB4002254AE1B40065CC4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42AB4003254AE1B40065CC4E /* Build configuration list for PBXNativeTarget "MaxMakDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42AB4004254AE1B40065CC4E /* Debug */,
+				42AB4005254AE1B40065CC4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42AB3FCB254AE1B10065CC4E /* Project object */;
+}
